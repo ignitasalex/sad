@@ -1,0 +1,5 @@
+el projecte esta fet en:
+	-python 3.9.12
+	-pygame 
+en l'estat acutal tenim diversios arxius amb tecniques que hem estat provant per
+tal de veure com enfocar el projecte
