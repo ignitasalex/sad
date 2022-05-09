@@ -52,7 +52,7 @@ class Lvl2:
         death=False
 
         #carreguem el fitxer de l'imatge 
-        nivell_1=pygame.image.load('joc_menu/images/nivell2.png')
+        nivell_1=pygame.image.load('images/nivell2.png')
         nivell_1= pygame.transform.scale(nivell_1,(WIDTH,HEIGHT))
         
         def draw() :
@@ -144,6 +144,5 @@ class Lvl2:
             # Draw
             draw()
 
-        # Close everything down
-        pygame.quit() 
+        
 
