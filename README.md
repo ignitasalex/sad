@@ -14,8 +14,12 @@ Practica 2:
 
 Practica 3:
   - xat grafic en client swing
-  
-Projecte final:
-  -projecte final de joc en python
+
+ 
+ Projecte final:
+  - projecte final de joc en python
   
 Presentació del projecte final
+
+old:
+  - demos i versions no finals del projecte
