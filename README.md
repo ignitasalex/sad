@@ -9,12 +9,11 @@ Practica 1:
   - EditableBufferedReadhome: tot en un arxiu amb implementació home
   - TestBarra: exercici de slide barra
 
-Practica 1:
-  - Versio2: sense patró mvc
+
 Practica 2:
 
 Practica 3:
-  -practica 3: xat grafic en client swing
+  - xat grafic en client swing
   
 Projecte final:
   -projecte final de joc en python
