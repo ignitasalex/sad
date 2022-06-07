@@ -11,6 +11,11 @@ Practica 1:
 
 
 Practica 2:
+En la segona pràctica hem implementat un xat textual amb servidor centralitzat. Hem implementat el servidor multithreading de tres formes diferents tal i com es proposava a l’enunciat de la pràctica. Les implementacions que hem dut a terme han sigut:
+Fent servir la classe ReentrantReadWriteLock
+Fent servir la classe ConcurrentHashMap
+Fent servir el mètode Collections.synchronizedMap
+
 
 Practica 3:
   - xat grafic en client swing
