@@ -9,6 +9,8 @@ Practica 1:
   - EditableBufferedReadhome: tot en un arxiu amb implementació home
   - TestBarra: exercici de slide barra
 
+Practica 1:
+  - Versio2: sense patró mvc
 Practica 2:
 
 Practica 3:
