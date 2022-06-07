@@ -43,8 +43,8 @@ public class Server implements Runnable {
 
           clientsMap.put(name, clientSocket); // afegim el nou socket al diccionari
           new Thread(new Server(name, clientSocket)).start();   // nou thread del fill del servidor que aten al client nou
-          validUser = true;
           clientSocket.printLine("........ " + name + " t'has unit al xat ........");
+          validUser = true;
         }
       }
       validUser = false;

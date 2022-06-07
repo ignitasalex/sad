@@ -6,15 +6,15 @@ import java.io.InputStreamReader;
 
 public class Client {
 
-  public static final String HOST = "localhost";
   public static final int PORT = 5000;
 
   public static void main(String[] args) throws IOException {
-    MySocket mySocket = new MySocket(HOST, PORT);
+    MySocket mySocket = new MySocket("localhost", PORT);
 
     new Thread(() -> {
      
-        String inputLine;
+        String input;
+
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
           try {
             while ((inputLine = in.readLine()) != null) {
@@ -30,7 +30,8 @@ public class Client {
     
     new Thread(() -> {
 
-        String outputLine;
+        String output;
+
         while ((outputLine = mySocket.readLine()) != null) {  
           System.out.println(outputLine);
       	}

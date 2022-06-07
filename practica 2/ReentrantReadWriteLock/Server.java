@@ -46,8 +46,8 @@ public class Server implements Runnable {
         } else {
           putClient(name, clientSocket);
           new Thread(new Server(name, clientSocket)).start();
-          validUser = true;
           clientSocket.printLine("........ " + name + " t'has unit al xat ........");
+          validUser = true;
         }
       }
       validUser = false;

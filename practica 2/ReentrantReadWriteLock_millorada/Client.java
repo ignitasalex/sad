@@ -13,12 +13,14 @@ public class Client {
 
     new Thread(() -> { //Thread para leer de teclado y enviar hacia servidor
      
-        String inputLine;
+        String input;
+        
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
           try {
-            while ((inputLine = in.readLine()) != null) {
-              mySocket.printLine(inputLine);
+            while ((input = in.readLine()) != null) {
+              mySocket.printLine(input);
           }
+          
           mySocket.close(); 
         }catch(IOException e) {
               e.printStackTrace();
@@ -28,9 +30,10 @@ public class Client {
   
     new Thread(() -> {  //Thread para leer del servidor y printar por pantalla
 
-        String outputLine;
-        while ((outputLine = mySocket.readLine()) != null) {  
-          System.out.println(outputLine);
+        String output;
+
+        while ((output = mySocket.readLine()) != null) {  
+          System.out.println(output);
       	}
 
     }).start();
